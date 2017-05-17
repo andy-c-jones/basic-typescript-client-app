@@ -5,8 +5,9 @@
   "main": "dist/index",
   "typings": "dist/index",
   "scripts": {
-    "lint": "tslint *.ts",
-    "test": "karma start"
+    "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "test": "karma start",
+    "precommit": "npm run lint && npm run test"
   },
   "author": "",
   "license": "ISC",

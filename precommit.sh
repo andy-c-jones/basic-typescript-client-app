@@ -1,4 +1,1 @@
-npm install -g webpack
-
-webpack
-
+npm run precommit

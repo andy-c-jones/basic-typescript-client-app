@@ -1,9 +1,7 @@
 export class Thing {
 
-  constructor() {
-  }
-
-  doSomething(value: number) {
+  public doSomething(value: number): number {
     return value + 1;
   }
+
 }
