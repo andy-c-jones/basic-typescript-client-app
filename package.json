@@ -12,12 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^15.0.24",
-    "@types/react-dom": "^15.5.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.1"
   },
   "devDependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "@types/react-redux": "4.4.37",
+    "@types/redux": "3.6.0",
+    "@types/redux-actions": "1.2.3",
     "@types/chai": "^3.5.2",
     "@types/karma": "^0.13.35",
     "@types/mocha": "^2.2.41",
